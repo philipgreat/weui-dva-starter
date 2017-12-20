@@ -2,6 +2,7 @@ import 'babel-polyfill';
 import dva from 'dva';
 import browserHistory from 'history/createBrowserHistory';
 import 'moment/locale/zh-cn';
+import 'react-weui/build/packages/react-weui.css';
 import './g2';
 import './rollbar';
 import './index.less';

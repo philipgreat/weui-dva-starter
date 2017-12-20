@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
 import { Article } from 'react-weui';
+import srcArticle from '../../assets/pic_article.png';
 import styles from './Article.less';
 
 
@@ -20,6 +21,10 @@ export default class ArticleComponent extends Component {
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute
+            </p>
+            <p>
+              <img src={srcArticle} />
+              <img src={srcArticle} />
             </p>
           </section>
           <section>
