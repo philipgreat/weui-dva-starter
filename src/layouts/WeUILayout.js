@@ -18,7 +18,7 @@ class WeUILayout extends React.PureComponent {
     let title = 'WeUI example';
     getRouteData('WeUILayout').forEach((item) => {
       if (item.path === pathname) {
-        title = `${item.name} - Ant Design Pro`;
+        title = `${item.name} - WeUI example`;
       }
     });
     return title;
